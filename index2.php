@@ -148,10 +148,10 @@ label {
     <img src ="imgs/cv.png"style ="width:100px;height:65px"></div>
 	<div><ul>
 	<!--<li><a href="#news">AfroCV</a>  </li> -->
- <!-- <li><a class="active" href="index2.php">CV</a></li>
+  <li><a class="active" href="index2.php">CV</a></li>
   <li><a href="applicindex.php">Application Letter</a></li>
   <li><a href="index2.php">Resume</a></li>
-  <li><a href="#about">About</a></li> -->
+  <li><a href="#about">About</a></li>
 </ul></div>
 
 

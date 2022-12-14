@@ -81,22 +81,6 @@
     tr:nth-child(even) {
       background-color: #D6EEEE;
     }
-    
-    #lema{
-	display:flex;
-	flex-wrap:wrap;
-}
- #lema > div{
-	 margin:30px;
-	 padding:15px;
- }
-
-    
-    
-    
-    
-    
-    
     </style>
   </head>
 
@@ -243,15 +227,12 @@ $conn->close();
 
 
 
-<div id ="lema">
-
-<div id = "pe">
-   <i> <h3>Application Letter</h3> </div>
+   <i> <h3>Application Letter</h3></i>
     
 
-<div id = "pe" style = "max-width :1000px">
-    ______________________________________________________________________________________________________________________<br><br> </div>
-<br> 
+<div id = "pe">
+    _____________________________________________________________________________________________________________________________________________<br><br> </div>
+<br>
 
 <div id = "px">
 <?php if($letterto != NULL){
@@ -259,7 +240,7 @@ $conn->close();
 	echo "To $letterto <br><br>";
 	echo "$ApplicationDate";
 }
-?>&nbsp Dear Sir or Madam,<br>
+?>&nbsp Dear Sir or Madam,<br><br>
 </div>
 <div id = "ps">
 <?php if($vacancyPosition != NULL){
@@ -404,14 +385,6 @@ $conn->close();
 <button onclick = "window.print()"> Print </button>
 
 </div>
-
-
-
-
-</div>
-
-
-
 
 
 <br><br><br>

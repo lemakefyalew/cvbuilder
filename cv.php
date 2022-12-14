@@ -35,21 +35,22 @@
     tr:nth-child(even) {
       background-color: #D6EEEE;
     }    */
+
 #footer{background-color:white;#D6EEEE;color:red;}
 
 
 #pe{
-	float:center;margin-left:20px;font-weight:bold;width:700%;color:#00acee;font-size:18px;
+	float:center;margin-left:20px;font-weight:bold;color:#00acee;font-size:18px;
 }
 #pd{
-	float:center;margin-left:20px;font-weight:nornal;width:70%;color:#00acee;font-size:18px;
+	float:center;margin-left:20px;font-weight:nornal;color:#00acee;font-size:18px;
 }
 
 #ps{
-	float:center;margin-left:100px;width:70%;font-size:20px
+	float:center;margin-left:100px;font-size:20px
 }
 #px{
-	float:center;margin-left:100px;width:70%;font-size:18px;color:green;font-weight:bold;
+	float:center;margin-left:100px;font-size:18px;color:green;font-weight:bold;
 }
 
 
@@ -260,11 +261,19 @@ $conn->close();
 
 
 
+
+
+
+
+
+
+
+
    <i> <h3>Curriculum Vitae</h3></i>
     
 
 <div id = "pe">
-    PERSONAL INFORNATION__________________________________________________________________________________________<i class="fa fa-user"style = "color:#00acee"></i><br><br> </div>
+    PERSONAL INFORNATION____________________________________________________________________________________________________<i class="fa fa-user"style = "color:#00acee"></i><br><br> </div>
 <br>
 
 
@@ -326,7 +335,7 @@ $conn->close();
   <?php if($position != NULL || $company != NULL || $achievements != NULL){
 ?>
 <div id = "pe">
-   WORK EXPERIENCE__________________________________________________________________________________________<i class="fa fa-user"style = "color:#00acee"></i><br><br></div>
+   WORK EXPERIENCE___________________________________________________________________________________________________<i class="fa fa-user"style = "color:#00acee"></i><br><br></div>
 
  
  <div id = "pd">
@@ -498,7 +507,7 @@ $conn->close();
 ?>
 
 <div id = "pe">
-   EDUCATION____________________________________________________________________________________________________<i class="fa fa-user"style = "color:#00acee"></i><br><br></div>
+   EDUCATION______________________________________________________________________________________________________<i class="fa fa-user"style = "color:#00acee"></i><br><br></div>
 
 
 
@@ -594,7 +603,7 @@ $conn->close();
 ?>
 
 <div id = "pe">
-   SHORT COURSES__________________________________________________________________________________________<i class="fa fa-user"style = "color:#00acee"></i><br><br></div>
+   SHORT COURSES___________________________________________________________________________________________________<i class="fa fa-user"style = "color:#00acee"></i><br><br></div>
 
 
 
@@ -618,7 +627,7 @@ echo "$shortCourses<br><br>";
 ?>
 
 <div id = "pe">
-   PERSONAL SKILLS__________________________________________________________________________________________<i class="fa fa-user"style = "color:#00acee"></i><br><br></div>
+   PERSONAL SKILLS__________________________________________________________________________________________________<i class="fa fa-user"style = "color:#00acee"></i><br><br></div>
 
 <div id = "pe">
    LANGUAGES<br><br></div>
@@ -758,7 +767,7 @@ echo "$shortCourses<br><br>";
 
 <br><br></div>
 
-                        __________________________________________________________________________________________<i class="fa fa-user"style = "color:#00acee"></i><br><br></div>
+                        ____________________________________________________________________________________________<i class="fa fa-user"style = "color:#00acee"></i><br><br></div>
 
 
 
@@ -768,8 +777,6 @@ echo "$shortCourses<br><br>";
 <button onclick = "window.print()"> Print </button>
 
 </div>
-
-
 
 
 
@@ -795,6 +802,8 @@ echo "$shortCourses<br><br>";
 </div>
 
 -->
+
+
 
 </body>
 </html>

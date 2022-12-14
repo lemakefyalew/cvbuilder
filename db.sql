@@ -1,4 +1,4 @@
-CREATE TABLE 'boq_table' (
+CREATE TABLE 'cv_table' (
  'name' text NOT NULL,
  'born' text NOT NULL,
  'parea' text NOT NULL,

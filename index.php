@@ -4,16 +4,6 @@
     <meta charset="utf-8">
     <title></title>
     <style input type="text/css">
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
     body{background-color:white;
       font-size :30px;}
     h1{background-color:white;text-align:center;padding:10px; }
@@ -63,7 +53,7 @@
     tr:nth-child(even) {
       background-color: white;
     }
-    .btn-main {height: 33px;align:center; padding: 20;border-radius: 90px;width: 300px;display:flex;align-items:center;justify-content:center;background-color:orange;color:white;font-size: 16px;
+    .btn-main {height: 33px;margin-left:560px;padding: 20;border-radius: 90px;width: 300px;display:flex;align-items:center;justify-content:center;background-color:orange;color:white;font-size: 16px;
 	}
 	.btn-fmain {height: 33px;margin-left:20px;padding: 20;border-radius: 90px;width: 300px;display:flex;align-items:center;justify-content:center;background-color:Green;color:white;font-size: 16px;
     }
@@ -124,14 +114,8 @@ label {
     margin-bottom: 10px;
 }
 
-#lema{
-	display:flex;
-	flex-wrap:wrap;
-}
- #lema > div{
-	 margin:30px;
-	 padding:30px;
- }
+
+ 
 
 
     </style>
@@ -148,19 +132,27 @@ label {
     <img src ="imgs/cv.png"style ="width:100px;height:65px"></div>
 	<div><ul>
 	<!--<li><a href="#news">AfroCV</a>  </li> -->
- <li><a class="active" href="index2.php">CV</a></li>
+  <li><a class="active" href="index.php">CV</a></li>
   <li><a href="applicindex.php">Application Letter</a></li>
-  <li><a href="index2.php">Resume</a></li>
-  <li><a href="#about">About</a></li> 
+  <li><a href="index.php">Contact</a></li>
+  <li><a href="about.php">About</a></li>
+  <li><a href="login.php">Login</a></li>
+  <li><a href="login.php">Sign Up</a></li>
 </ul></div>
+
+
+
+
 
 
 
 
 <h3><form action="cv.php" method ="post"><br><br>
 
-<div id ="lema">
-<div>
+<div style ="font-size:12px;">
+<div style ="float:left;margin-left:10px;">
+<img src ="imgs/cv6.PNG"style ="width:650px;height:780px"> <br><h1>Start Creating Your CV now</h1><span class = "btn-fmain" <a href ="index1.php"> Start </a></span><br><br></div><div>
+
 
 <h3>1. Personal Information </h3>
 
@@ -170,14 +162,13 @@ Gender :
 <input type ="radio" name = "gender" value = "Male"checked>Male
 <input type ="radio" name = "gender" value = "Female">Female<br><br>
 Born in :      <input type ="text" name = "born"><br><br>
-Lives in  :  <input type ="text" name = "lives"><br><br>
 
+Lives in  :  <input type ="text" name = "lives"><br><br>
 <h3>2. Account Information </h3>
 Email   :   <input type = "email" name = "email"><br><br>
 Linkedin  :  <input type = "url" name = "linkedin"><br><br>
 Facebook  : <input type ="url" name = "facebook"><br><br>
 Website: <input type = "url" name = "website"><br><br>
-
 
    3. Work Experience <br><br>
 Position: <input type = "text" name = "position"><br><br>
@@ -189,9 +180,11 @@ End date:  <input type = "date" name = "endDate"><br><br>
 <label for="story">Achievements:</label>
 
 <textarea id="story" name="achievements"
-          rows="4" cols="33">
+          rows="5" cols="33">
 
 </textarea><br><br>
+
+
 
 Work Experience2 <br><br>
 Position: <input type = "text" name = "position2"><br><br>
@@ -203,37 +196,16 @@ End date:  <input type = "date" name = "endDate2"><br><br>
 <label for="story">Achievements:</label>
 
 <textarea id="story" name="achievements2"
-          rows="4" cols="25">
+          rows="5" cols="33">
 
 </textarea><br><br>
 
-Work Experience 3 <br><br>
-Position: <input type = "text" name = "position3"><br><br>
-Company : <input type ="text" name ="company3"><br><br>
 
-Start Date: <input type = "date" name = "startDate3"><br><br>
-End date:  <input type = "date" name = "endDate3"><br><br>
 
-<label for="story">Achievements:</label>
 
-<textarea id="story" name="achievements3"
-          rows="4" cols="25">
-
-</textarea><br><br>
-
-Work Experience 4 <br><br>
-Position: <input type = "text" name = "position4"><br><br>
-Company : <input type ="text" name ="company4"><br><br>
-
-Start Date: <input type = "date" name = "startDate4"><br><br>
-End date:  <input type = "date" name = "endDate4"><br><br>
-
-<label for="story">Achievements:</label>
-
-<textarea id="story" name="achievements4"
-          rows="4" cols="25">
-
-</textarea><br>
+<div>
+<div style ="float:left;margin-left:10px;">
+<img src ="imgs/cv4.PNG"style ="width:650px;height:1900px"> <br><!--Start Creating Your CV now --></div></div><br><br>
 
 
 
@@ -242,79 +214,10 @@ End date:  <input type = "date" name = "endDate4"><br><br>
 
 
 
-<!--
-
-<html lang="en">
-<head>
-    
-
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-</head>
-<body>
-    <div class="container"style="max-width: 700px;">
-
-      
-
-                    <div id="inputFormRow">
-                        <div class="input-group mb-3">
-                            Company: <input type="text" name="company4" class="form-control m-input" placeholder="Enter title" autocomplete="off">
-							Position: <input type="text" name="position4" class="form-control m-input" placeholder="Enter degree" autocomplete="off">
-							
-							Start Date: <input type="date" name="startDate4" class="form-control m-input" placeholder="Enter title" autocomplete="off"><br>
-							End Date: <input type="date" name="endDate4" class="form-control m-input" placeholder="Enter degree" autocomplete="off">
-							
-							
-							
-							
-							
-							
-                            <div class="input-group-append">
-                                <button id="removeRow" type="button" class="btn btn-danger">Remove</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div id="newRow"></div>
-                    <button id="addRow" type="button" class="btn btn-info">Add Row</button>
-             
-    </div>
-
-    <script type="text/javascript">
-        // add row
-        $("#addRow").click(function () {
-            var html = '';
-            html += '<div id="inputFormRow">';
-            html += '<div class="input-group mb-3">';
-            html += 'Company: <input type="text" name="company4" class="form-control m-input" placeholder="Enter title" autocomplete="off"><br>';
-			html += 'Position: <input type="text" name="position4" class="form-control m-input" placeholder="Enter degree" autocomplete="off">';
-			
-			html += 'Start Date: <input type="date" name="startDate4" class="form-control m-input" placeholder="Enter title" autocomplete="off"><br>';
-							html += 'End Date: <input type="date" name="endDate4" class="form-control m-input" placeholder="Enter degree" autocomplete="off">';
-			
-			
-			
-            html += '<div class="input-group-append">';
-            html += '<button id="removeRow" type="button" class="btn btn-danger">Remove</button>';
-            html += '</div>';
-            html += '</div>';
-
-            $('#newRow').append(html);
-        });
-
-        // remove row
-        $(document).on('click', '#removeRow', function () {
-            $(this).closest('#inputFormRow').remove();
-        });
-    </script>
-</body>
-</html>
-
--->
 
 
 
-<h3> Education </h3>
+<h3>4. Education </h3><br>
 
 Field Of Study: <input type = "text" name = "fieldOfStudy"><br><br>
 
@@ -343,52 +246,6 @@ End date:  <input type = "date" name = "endDateEdu"><br><br>
 
 
 
-</div>
-
-
-
-
-
-
-
-<div style= "margin-right:20px">
-
-
-<h3>Education 2 </h3><br>
-
-Field Of Study: <input type = "text" name = "fieldOfStudy2"><br><br>
-
-<label for="cars">Degree Obtained</label>
-  <select id="cars" name="degreeType2">
-    <option value="BSc">Bachelor's Degree</option>
-    <option value="BA">Bachelor of Arts</option>
-    <option value="MSc">Master's degree</option>
-    <option value="MA">Master of Arts</option>
-	 <option value="PhD">Doctoral Degree</option>
-  </select>
-
-<br><br>
-University: <input type = "text" name = "university2"><br><br>
-
-Start Date: <input type = "date" name = "startDateEdu2"><br><br>
-End date:  <input type = "date" name = "endDateEdu2"><br><br>
-
-<label for="story">Courses Taken:</label>
-
-<textarea id="story" name="majorCourses2"
-          rows="5" cols="33">
-
-</textarea>
-<br><br>
-
-
-
-
-
-
-
-
-
 <h3>5. Short Courses </h3><br>
 
 <label for="story">Short Courses:</label>
@@ -412,25 +269,28 @@ End date:  <input type = "date" name = "endDateEdu2"><br><br>
 </textarea>
 <br><br>
 
+
 <h2>Manageria skills:</h2><br>  
 
-<input type="checkbox" name="managerialSkill" value="Generate New Ideas"checked>Generate New Ideas<br><br>       
-<input type="checkbox" name="managerialskill1" value="Desputes Handling"checked>Desputes Handling<br><br>       
-<input type="checkbox" name="managerialSkill2" value="Work under difficulties"checked>Work Under Difficulties<br><br>     
+<input type="checkbox" name="managerialSkill" value="Generate New Ideas">Generate new ideas<br><br>       
+<input type="checkbox" name="managerialskill1" value="Desputes Handling">Desputes Handling<br><br>       
+<input type="checkbox" name="managerialSkill2" value="Work under difficulties">Work under difficulties<br><br>     
 
 
 
 
 <h2>Commication  skills:</h2><br> 
 
-<input type="checkbox" name="communicationSkill" value="Straight talking"checked>Straight talking<br> <br>     
-<input type="checkbox" name="communicationSkill1" value="Non-verbal communication"checked>Non-verbal Communication<br><br>      
-<input type="checkbox" name="communicationSkill2" value="Stress management"checked>Stress Management<br><br>     
-<input type="checkbox" name="communicationSkill3" value="Emotion control"checked>Emotion Control<br><br>
+<input type="checkbox" name="communicationSkill" value="Straight talking">Straight talking<br> <br>     
+<input type="checkbox" name="communicationSkill1" value="Non-verbal communication">Non-verbal communication<br><br>      
+<input type="checkbox" name="communicationSkill2" value="Stress management">Stress management<br><br>     
+<input type="checkbox" name="communicationSkill3" value="Emotion control">Emotion control<br><br>
+
 
 
 
 <br><br>
+
 
 <label for="story">Job Related skills:</label>
 
@@ -440,12 +300,23 @@ End date:  <input type = "date" name = "endDateEdu2"><br><br>
 </textarea>
 <br><br>
 
+
+
 <h2>Digital  skills:</h2><br> 
 
-<input type="checkbox" name="digitalSkill" value="Excellent in handling information and content"checked>Handling Information & Content<br><br>  
-<input type="checkbox" name="digitalSkill1" value="Being Safe and Legal Online"checked>Being Safe & Legal Online<br><br>      
-<input type="checkbox" name="digitalSkill2" value="Excellent in Problem Solving"checked>Good at Problem Solving<br><br>     
-<input type="checkbox" name="digitalSkill3" value="Excellent in Emotion control"checked>Good at Emotion Control<br><br>
+<input type="checkbox" name="digitalSkill" value="Excellent in handling information and content">Handling Information & Content<br><br>  
+<input type="checkbox" name="digitalSkill1" value="Being Safe and Legal Online">Being Safe & Legal Online<br><br>      
+<input type="checkbox" name="digitalSkill2" value="Excellent in Problem Solving">Good at Problem Solving<br><br>     
+<input type="checkbox" name="digitalSkill3" value="Excellent in Emotion control">Good at Emotion control<br><br>
+
+
+
+
+
+
+
+
+
 
 
 <label for="story">Publications:</label>
@@ -459,18 +330,21 @@ End date:  <input type = "date" name = "endDateEdu2"><br><br>
 Publications : <input type ="text" name = "publications"><br><br>
 Driving Licenses : <input type ="text" name = "driving"><br><br>
 
-
  Reference : <input type ="text" name = "reference1"><br><br>
 Phone number: <input type ="tel" name = "reference1Phone"><br><br>
 Email: <input type ="email" name = "reference1Email"><br><br>
+
+
+
+
 
 
 </div></div><br>
 
 
 
- <div id ="lema">
-    <div>
+ <div>
+    <div style ="float:center;margin-left:0px;">
 <!--Submit : --><input type ="Submit" class="btn-main"><br><br><br> </h3>
 </div></div><br>
 

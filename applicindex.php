@@ -7,7 +7,7 @@
     body{background-color:white;
       font-size :30px;}
     h1{background-color:white;text-align:center;padding:10px; }
-    h2{background-color:white;text-align:center;padding:0px;width:100%; }
+    h2{background-color:white;text-align:center;padding:0px; }
 
     h3{background-color:white;white;text-align:center;padding:0px; }
     .form{ text-align: center;margin-left: 600px;width:auto;table-layout: auto;font-size:12px
@@ -53,7 +53,7 @@
     tr:nth-child(even) {
       background-color: white;
     }
-    .btn-main {height: 33px;padding: 20;border-radius: 90px;width: 200px;display:flex;align-items:center;justify-content:center;background-color:orange;color:white;font-size: 16px;
+    .btn-main {height: 33px;padding: 20;border-radius: 90px;width: 300px;display:flex;align-items:center;justify-content:center;background-color:orange;color:white;font-size: 16px;
 	}
 	.btn-fmain {height: 33px;align:margin-left:20px;padding: 20;border-radius: 90px;width: 300px;display:flex;align-items:center;justify-content:center;background-color:Green;color:white;font-size: 16px;
     }
@@ -139,10 +139,12 @@ label {
     <img src ="imgs/cv.png"style ="width:100px;height:65px"></div>
 	<div><ul>
 	<!--<li><a href="#news">AfroCV</a>  </li> -->
-<!--  <li><a class="active" href="index2.php">CV</a></li>
+  <li><a class="active" href="index.php">CV</a></li>
   <li><a href="applicindex.php">Application Letter</a></li>
-  <li><a href="index2.php">Resume</a></li>
-  <li><a href="#about">About</a></li> -->
+  <li><a href="index.php">Resume</a></li>
+  <li><a href="about.php">About</a></li>
+  <li><a href="login.php">Login</a></li>
+  <li><a href="login.php">Sign Up</a></li>
 </ul></div>
 
 
@@ -284,7 +286,7 @@ End date:  <input type = "date" name = "endDateEdu"><br><br> -->
 <div> 
 
 
-<div>Manageria skills:<br<br> </div> 
+<h2>Manageria skills:</h2><br>  
 
 <input type="checkbox" name="managerialSkill" value="generate new ideas"checked>Generate new ideas<br><br>       
 <input type="checkbox" name="managerialskill1" value="better at desputes handling"checked>Desputes Handling<br><br>       
@@ -293,7 +295,7 @@ End date:  <input type = "date" name = "endDateEdu"><br><br> -->
 
 
 
-<div>Commication  skills:</div><br> <br<br> 
+<h2>Commication  skills:</h2><br> 
 
 <input type="checkbox" name="communicationSkill" value="straight talking"checked>Straight talking<br> <br>     
 <input type="checkbox" name="communicationSkill1" value="non-verbal communication"checked>communication<br><br>      
@@ -316,7 +318,7 @@ End date:  <input type = "date" name = "endDateEdu"><br><br> -->
 
 
 
-<div>Digital  skills:<br<br> <br<br></div> 
+<h2>Digital  skills:</h2><br> 
 
 <input type="checkbox" name="digitalSkill" value="excellent in handling information and content"checked>Handling Information & Content<br><br>  
 <input type="checkbox" name="digitalSkill1" value="being safe and legal online"checked>Being Safe & Legal Online<br><br>      

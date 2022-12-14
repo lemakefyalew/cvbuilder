@@ -133,10 +133,12 @@ label {
     <img src ="imgs/cv.png"style ="width:100px;height:65px"></div>
 	<div><ul>
 	<!--<li><a href="#news">AfroCV</a>  </li> -->
-  <li><a class="active" href="#home">CV</a></li>
-  <li><a href="#news">Application Letter</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li><a href="#about">About</a></li>
+  <li><a class="active" href="index.php">CV</a></li>
+  <li><a href="applicindex.php">Application Letter</a></li>
+  <li><a href="index.php">Contact</a></li>
+  <li><a href="about.php">About</a></li>
+  <li><a href="login.php">Login</a></li>
+  <li><a href="login.php">Sign Up</a></li>
 </ul></div>
 
 

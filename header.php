@@ -132,6 +132,8 @@ error_reporting(0);
   <li><a href="applicindex.php">Application Letter</a></li>
   <li><a href="index2.php">Contact</a></li>
   <li><a href="#about">About</a></li>
+  <li><a href="index2.php">Login</a></li>
+  <li><a href="#about">Sign up</a></li>
 </ul></div>
 
 
